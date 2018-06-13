@@ -1,14 +1,18 @@
-<form action=">/my handling-form-page"method="post">
-	<div>
-		<label for="name">mail:</label>
-		<input type="text" id="name" name="user_name" />
-	</div>
-	<div>
-		<label for="mail">E-mail</label>
-		<input type="email" id="mail" name="user_"
-	</div>
-	<div><form action="script.php" method="post">
-   <div><select>
+<DOCTYPE html>
+<html>
+<head>
+<title> forms </title>
+</head>
+<body>
+<p>
+    <label>Email</label>
+    <input type="email" value="email">
+</p>
+<label>Confirm Email</label>
+<input type="email">
+<p>
+<label>Country</label>
+<select>
     <option value="  " selected>(please select a country)</option>
     <option value="--">none</option>
     <option value="AF">Afghanistan</option>
@@ -252,4 +256,29 @@
     <option value="ZW">Zimbabwe</option>
 </select>
    </div>
+<p>
+<label for="Zip_code">Zip code</label>
+<input id="Zip_code" type="text">
+</p>
+<p>
+    <label>Password</label>
+    <input type="password" value="password">
+  </p>
+  <p>
+    <label>Confirm your password</label>
+    <input type="password" value="password_confirm">
+  </p>
+   <p>
+    <label>
+      <input type="checkbox" value="terms">
+      I agree to the <a href="/terms">terms and conditions</a>
+    </label>
+  </p>
+  <p>
+    <button>
+      Sign up
+    </button>
+  </p>
 
+</body>
+</html>
